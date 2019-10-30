@@ -1,5 +1,5 @@
 import React from "react";
-import "./CharCard.css";
+// do I do inline styling ?import ".css
 // import { url } from "inspector";
 
 const CharCard = ({ id, name, image, handlePicked }) => (

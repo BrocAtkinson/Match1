@@ -7,32 +7,32 @@
     {
         "id": 2,
         "name": "Jetta",
-        "image": "../imgs/bran.png"
+        "image": ""
     },
     {
         "id": 3,
         "name": "Evo",
-        "image": "../imgs/littlefinger.gif"
+        "image": ""
     },
     {
         "id": 4,
         "name": "RX7",
-        "image": "../imgs/jon.jpg"
+        "image": ""
     },
     {
         "id": 5,
         "name": "Supra",
-        "image": "../imgs/cersei.png"
+        "image": ""
     },
     {
         "id": 6,
         "name": "GTR",
-        "image": "../imgs/brienne.jpg"
+        "image": ""
     },
     {
         "id": 7,
         "name": "Eclipse",
-        "image": "../imgs/jaime.jpg"
+        "image": ""
     },
     {
         "id": 8,
