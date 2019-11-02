@@ -7,37 +7,37 @@
     {
         "id": 2,
         "name": "Jetta",
-        "image": ""
+        "image": "./images/jetta.png"
     },
     {
         "id": 3,
         "name": "Evo",
-        "image": ""
+        "image": "./images/Evo.png"
     },
     {
         "id": 4,
         "name": "RX7",
-        "image": ""
+        "image": "./images/RX7.png"
     },
     {
         "id": 5,
         "name": "Supra",
-        "image": ""
+        "image": "./images/Supra.png"
     },
     {
         "id": 6,
         "name": "GTR",
-        "image": ""
+        "image": "./images/GTR.png"
     },
     {
         "id": 7,
         "name": "Eclipse",
-        "image": ""
+        "image": "./images/Eclipse.png"
     },
     {
         "id": 8,
         "name": "S2000",
-        "image": ""
+        "image": "./images/S200.png"
     }
     
 
