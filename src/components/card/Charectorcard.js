@@ -1,4 +1,5 @@
 import React from "react";
+import "./card.css";
 // do I do inline styling ?import ".css
 // import { url } from "inspector";
 

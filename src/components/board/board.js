@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from "../card/Charectorcard"
 
+
 const board = (props) => {
     return (
         <div>

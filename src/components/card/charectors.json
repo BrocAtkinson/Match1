@@ -27,7 +27,7 @@
     {
         "id": 6,
         "name": "GTR",
-        "image": "./images/GTR.png"
+        "image": "./images/GTRpic.png"
     },
     {
         "id": 7,
@@ -36,8 +36,8 @@
     },
     {
         "id": 8,
-        "name": "S2000",
-        "image": "./images/S200.png"
+        "name": "s2000",
+        "image": "./images/s2000.png"
     }
     
 

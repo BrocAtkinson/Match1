@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './App.css';
 import charector from "./components/card/charectors.json"
 import Board from "./components/board/board"
+import Jumbotron from "./components/Jumbotron/jumbo"
+import Header from "./components/Header/header"
 
 class App extends Component {
   state = {
@@ -14,11 +16,14 @@ clickPic = event => {
   render(){
   return (
     <div className="App">
+    <Jumbotron />
+    <Header />
      <Board images = {this.state.charectors} myfunk = {this.clickPic} />
     </div>
   );
   }
 }
+export default App;
 
 // export default function App(){
 // return(
@@ -36,7 +41,7 @@ clickPic = event => {
 // ) 
 // }
 
-export default App
+
 
 
 
