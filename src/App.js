@@ -21,25 +21,12 @@ clickPic = event => {
      <Board images = {this.state.charectors} myfunk = {this.clickPic} />
     </div>
   );
-  }
-}
-export default App;
+  }}
+  export default App;
 
-// export default function App(){
-// return(
-//   <div>
-//  <h2>Can you remember the card</h2>
-//  <card 
-//  id = (1)
-//  width = {100}
-//  height = {100}
-// back = {/img}
-// front = {/img} 
-// flipped = {flipped.includes}
-//   </div>
 
-// ) 
-// }
+
+
 
 
 
