@@ -10,7 +10,7 @@ let clickMessage = "Click on a movie poster to gain points! Click on the same on
 
 class App extends Component {
     
-    // Setting this.state.matches to the matches json array
+
     state = {
         matches,
         correctGuesses,
@@ -19,15 +19,10 @@ class App extends Component {
     };
 
     setClicked = id => {
-
-        // Make a copy of the state matches array to work with
         const matches = this.state.matches;
 
-        // Filter for the clicked match
         const clickedMatch = matches.filter(match => match.id === id);
 
-        // If the matched image's clicked value is already true, 
-        // do the game over actions
         if (clickedMatch[0].clicked){
 
             console.log ("Correct Guesses: " + correctGuesses);
@@ -44,13 +39,10 @@ class App extends Component {
             this.setState({ correctGuesses });
             this.setState({matches});
 
-        // Otherwise, if clicked = false, and the user hasn't finished
         } else if (correctGuesses < 11) {
 
-            // Set its value to true
             clickedMatch[0].clicked = true;
 
-            // increment the appropriate counter
             correctGuesses++;
             
             clickMessage = "Great! You haven't click on that one yet! Keep going!";
@@ -60,22 +52,21 @@ class App extends Component {
                 this.setState({ bestScore });
             }
 
-            // Shuffle the array to be rendered in a random order
+      
             matches.sort(function(a, b){return 0.5 - Math.random()});
 
-            // Set this.state.matches equal to the new matches array
+    
             this.setState({ matches });
             this.setState({correctGuesses});
             this.setState({clickMessage});
         } else {
 
-            // Set its value to true
+
             clickedMatch[0].clicked = true;
 
-            // restart the guess counter
+   
             correctGuesses = 0;
 
-            // Egg on the user to play again
             clickMessage = "WOW!!! You got ALL of them!!! Now, let's see if you can do it again!";
             bestScore = 12;
             this.setState({ bestScore });
@@ -84,10 +75,9 @@ class App extends Component {
                 matches[i].clicked = false;
             }
 
-            // Shuffle the array to be rendered in a random order
             matches.sort(function(a, b){return 0.5 - Math.random()});
 
-            // Set this.state.matches equal to the new matches array
+      
             this.setState({ matches });
             this.setState({correctGuesses});
             this.setState({clickMessage});
