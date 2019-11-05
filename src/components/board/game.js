@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import AreaCard from "./area/";
+import AreaCard from "./area";
 import Title from "./components/Title";
 import matches from "../card/charectors.jso";
-import "./App.css";
+import "../board/board.css";
 
 let correctGuesses = 0;
 let bestScore = 0;

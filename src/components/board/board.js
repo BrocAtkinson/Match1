@@ -1,5 +1,7 @@
 import React from 'react';
 import Card from "../card/Charectorcard"
+import "../board/board.css"
+
 
 
 const board = (props) => {
